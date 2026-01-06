@@ -1,0 +1,269 @@
+/* Elementor Override Styles for Rasa System v3.5 */
+
+/* Container Width */
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1400px !important;
+}
+
+/* Header & Footer Override */
+.elementor-location-header .elementor-section {
+    background: transparent !important;
+}
+
+.elementor-location-footer .elementor-section {
+    background: var(--darker-bg) !important;
+}
+
+/* Widget Backgrounds */
+.elementor-widget-container {
+    background: var(--card-bg) !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Button Styles */
+.elementor-button {
+    border-radius: 50px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-weight: 700 !important;
+    transition: all 0.3s ease !important;
+    border: 2px solid transparent !important;
+}
+
+.elementor-button:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.elementor-button.elementor-size-md {
+    padding: 15px 35px !important;
+}
+
+/* Heading Styles */
+.elementor-widget-heading .elementor-heading-title {
+    color: var(--text-light) !important;
+    font-weight: 800 !important;
+    line-height: 1.3 !important;
+}
+
+/* Icon Box */
+.elementor-icon-box-wrapper {
+    text-align: right !important;
+}
+
+.elementor-icon-box-icon {
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+
+/* Form Styles */
+.elementor-field-group input,
+.elementor-field-group textarea,
+.elementor-field-group select {
+    background: var(--dark-bg) !important;
+    border: 2px solid var(--border-color) !important;
+    color: var(--text-light) !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.elementor-field-group input:focus,
+.elementor-field-group textarea:focus {
+    border-color: var(--primary-red) !important;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1) !important;
+}
+
+/* Testimonial Widget */
+.elementor-testimonial-wrapper {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+}
+
+/* Image Box */
+.elementor-image-box-wrapper {
+    background: var(--card-bg) !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+    border: 1px solid var(--border-color) !important;
+    transition: all 0.3s ease !important;
+}
+
+.elementor-image-box-wrapper:hover {
+    transform: translateY(-10px) !important;
+    border-color: var(--primary-red) !important;
+}
+
+/* Price Table */
+.elementor-price-table {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+}
+
+.elementor-price-table__header {
+    background: rgba(229, 57, 70, 0.1) !important;
+    padding: 40px 20px !important;
+}
+
+.elementor-price-table__price {
+    color: var(--primary-red) !important;
+    font-weight: 800 !important;
+}
+
+/* Accordion */
+.elementor-accordion-item {
+    border: 1px solid var(--border-color) !important;
+    margin-bottom: 10px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+.elementor-accordion-title {
+    background: var(--card-bg) !important;
+    color: var(--text-light) !important;
+    padding: 20px !important;
+    font-weight: 600 !important;
+}
+
+.elementor-accordion-title:hover {
+    background: rgba(229, 57, 70, 0.1) !important;
+}
+
+.elementor-tab-title {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.elementor-tab-title.elementor-active {
+    border-bottom-color: var(--primary-red) !important;
+}
+
+/* Progress Bar */
+.elementor-progress-bar {
+    background: var(--primary-red) !important;
+    border-radius: 10px !important;
+}
+
+.elementor-progress-wrapper {
+    background: var(--dark-bg) !important;
+    border-radius: 10px !important;
+    height: 12px !important;
+}
+
+/* Counter */
+.elementor-counter-number-wrapper {
+    color: var(--primary-red) !important;
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+}
+
+/* Social Icons */
+.elementor-social-icon {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-light) !important;
+}
+
+.elementor-social-icon:hover {
+    background: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-5px) !important;
+}
+
+/* Menu Widget */
+.elementor-nav-menu {
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.elementor-nav-menu--main .elementor-item {
+    color: var(--text-light) !important;
+    font-weight: 600 !important;
+}
+
+.elementor-nav-menu--main .elementor-item:hover {
+    color: var(--primary-red) !important;
+}
+
+/* Dark/Light Mode Support */
+[data-theme="light"] .elementor-widget-container {
+    background: #FFFFFF !important;
+    border-color: #E2E8F0 !important;
+}
+
+[data-theme="light"] .elementor-field-group input,
+[data-theme="light"] .elementor-field-group textarea {
+    background: #F8FAFC !important;
+    border-color: #E2E8F0 !important;
+    color: #1E293B !important;
+}
+
+/* Responsive Fixes */
+@media (max-width: 1024px) {
+    .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .elementor-widget-container {
+        padding: 20px !important;
+    }
+}
+
+/* Animation Support */
+.elementor-element.rasa-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.elementor-element.rasa-animate.elementor-element-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Glass Effect */
+.elementor-element.rasa-glass {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Hover 3D Effect */
+.elementor-element.rasa-hover-3d {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.elementor-element.rasa-hover-3d:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) translateZ(20px) !important;
+}
+
+/* Custom Rasa Widgets */
+.rasa-hero-widget,
+.rasa-services-widget,
+.rasa-products-widget,
+.rasa-team-widget {
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* Print Styles */
+@media print {
+    .elementor-section,
+    .elementor-column {
+        break-inside: avoid !important;
+    }
+    
+    .elementor-button,
+    .elementor-social-icon {
+        display: none !important;
+    }
+}

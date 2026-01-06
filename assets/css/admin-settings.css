@@ -1,0 +1,298 @@
+/* Admin Settings Page Styles for Rasa System v3.5 */
+
+.rasa-theme-settings {
+    font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 20px 20px 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rasa-theme-settings h1 {
+    color: #E63946;
+    border-bottom: 3px solid #E63946;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.rasa-theme-settings h1 i {
+    margin-left: 10px;
+}
+
+.rasa-settings-tabs {
+    margin: 30px 0;
+    border-bottom: 2px solid #E63946;
+}
+
+.rasa-settings-tabs .nav-tab-wrapper {
+    border: none;
+    padding: 0;
+}
+
+.rasa-settings-tabs .nav-tab {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    margin: 0 5px 0 0;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.rasa-settings-tabs .nav-tab:hover {
+    background: #E63946;
+    color: white;
+}
+
+.rasa-settings-tabs .nav-tab-active {
+    background: #E63946;
+    color: white;
+    border-bottom: 2px solid #E63946;
+}
+
+.rasa-tab-content {
+    display: none;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+}
+
+.rasa-tab-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+.rasa-tab-content h2 {
+    color: #E63946;
+    border-bottom: 2px solid #E63946;
+    padding-bottom: 10px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+}
+
+.form-table {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-table td {
+    padding: 20px 0;
+}
+
+.form-table input[type="text"],
+.form-table input[type="email"],
+.form-table input[type="url"],
+.form-table input[type="number"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.form-table input:focus {
+    border-color: #E63946;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1);
+    outline: none;
+}
+
+.form-table textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
+
+.form-table textarea:focus {
+    border-color: #E63946;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1);
+    outline: none;
+}
+
+.form-table select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 14px;
+    background: white;
+}
+
+.form-table select:focus {
+    border-color: #E63946;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1);
+    outline: none;
+}
+
+.form-table .description {
+    color: #666;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+/* Color Picker */
+.wp-picker-container {
+    vertical-align: middle;
+}
+
+.wp-picker-container .wp-color-result {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.wp-picker-container .wp-color-result:hover {
+    border-color: #E63946;
+}
+
+.wp-picker-container .wp-color-result:focus {
+    border-color: #E63946;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1);
+}
+
+.wp-picker-container .wp-picker-clear {
+    margin-right: 10px;
+}
+
+/* Checkbox */
+.form-table input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.form-table label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-table label input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+/* Submit Button */
+.rasa-theme-settings .submit {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.rasa-theme-settings .button-primary {
+    background: #E63946;
+    border-color: #E63946;
+    color: white;
+    padding: 12px 30px;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.rasa-theme-settings .button-primary:hover {
+    background: #C62839;
+    border-color: #C62839;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(229, 57, 70, 0.2);
+}
+
+.rasa-theme-settings .button-primary:active {
+    transform: translateY(0);
+}
+
+/* Section Titles */
+.rasa-tab-content h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 30px 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Success/Error Messages */
+.rasa-notice {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border-right: 4px solid;
+}
+
+.rasa-notice-success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.rasa-notice-error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.rasa-notice-warning {
+    background: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .rasa-theme-settings {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+    
+    .form-table th,
+    .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .form-table th {
+        padding-bottom: 5px;
+    }
+    
+    .rasa-settings-tabs .nav-tab {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+}

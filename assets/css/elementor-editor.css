@@ -1,0 +1,150 @@
+/* Elementor Editor Styles for Rasa System v3.5 */
+
+/* Panel Styling */
+#elementor-panel {
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.elementor-panel-box {
+    border-radius: 10px !important;
+    border: 1px solid var(--border-color, #2A2A2A) !important;
+}
+
+.elementor-panel-box-title {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+/* Widget Icons */
+.elementor-element .icon i {
+    color: #E63946 !important;
+}
+
+/* RTL Support */
+.elementor-control .elementor-control-title {
+    text-align: right !important;
+}
+
+.elementor-control-field {
+    flex-direction: row-reverse !important;
+}
+
+/* Color Picker */
+.elementor-control-type-color .elementor-control-title {
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+}
+
+/* Typography Controls */
+.elementor-control-type-typography .elementor-control-title {
+    margin-bottom: 10px !important;
+}
+
+/* Custom Categories */
+#elementor-panel-category-rasa-elements .elementor-element:hover .icon {
+    background: rgba(229, 57, 70, 0.1) !important;
+}
+
+#elementor-panel-category-rasa-elements .elementor-element .icon {
+    background: rgba(229, 57, 70, 0.05) !important;
+}
+
+/* Preview Area */
+.elementor-editor-preview .elementor-section {
+    border: 2px dashed rgba(229, 57, 70, 0.3) !important;
+}
+
+.elementor-editor-preview .elementor-section:hover {
+    border-color: #E63946 !important;
+}
+
+/* Responsive Editor */
+@media (max-width: 1440px) {
+    #elementor-panel {
+        width: 300px !important;
+    }
+}
+
+/* Dark Mode Support */
+.elementor-panel-dark-mode .elementor-panel-box {
+    background: #1E1E1E !important;
+    border-color: #333 !important;
+}
+
+.elementor-panel-dark-mode .elementor-control-title {
+    color: #FFFFFF !important;
+}
+
+/* Custom Widget Styling */
+.rasa-widget-badge {
+    background: #E63946 !important;
+    color: white !important;
+    padding: 2px 8px !important;
+    border-radius: 10px !important;
+    font-size: 10px !important;
+    position: absolute !important;
+    top: 5px !important;
+    left: 5px !important;
+}
+
+/* Tab Styling */
+.elementor-tab-control-content,
+.elementor-tab-control-style,
+.elementor-tab-control-advanced,
+.elementor-tab-control-layout,
+.elementor-tab-control-responsive {
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+/* Search Widget */
+#elementor-panel-elements-search-input {
+    font-family: 'Vazirmatn', sans-serif !important;
+    text-align: right !important;
+    padding: 10px 15px !important;
+}
+
+/* Widget Preview */
+.elementor-element-populated {
+    border: 1px solid rgba(229, 57, 70, 0.1) !important;
+    border-radius: 8px !important;
+}
+
+.elementor-element-populated:hover {
+    border-color: #E63946 !important;
+    box-shadow: 0 5px 15px rgba(229, 57, 70, 0.1) !important;
+}
+
+/* Loading States */
+.elementor-loading {
+    border: 3px solid rgba(229, 57, 70, 0.1) !important;
+    border-top: 3px solid #E63946 !important;
+}
+
+/* Nested Elements */
+.elementor-nested-category-title {
+    color: #E63946 !important;
+    font-weight: 700 !important;
+}
+
+/* Document Settings */
+#elementor-panel-page-settings .elementor-panel-navigation {
+    background: var(--card-bg, #1A1A1A) !important;
+}
+
+#elementor-panel-page-settings .elementor-panel-navigation-tab {
+    color: var(--text-light, #FFFFFF) !important;
+}
+
+#elementor-panel-page-settings .elementor-panel-navigation-tab.active {
+    color: #E63946 !important;
+    border-bottom-color: #E63946 !important;
+}
+
+/* Global Settings */
+.elementor-control-type-global-style-repeater .elementor-repeater-row-tools {
+    background: rgba(229, 57, 70, 0.1) !important;
+}
+
+.elementor-control-type-global-style-repeater .elementor-repeater-row-tools:hover {
+    background: rgba(229, 57, 70, 0.2) !important;
+}

@@ -1,0 +1,51 @@
+/* Elementor Frontend Styles for Rasa System */
+.elementor-widget-container {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1400px !important;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    color: var(--text-light) !important;
+    font-weight: 800 !important;
+    line-height: 1.3 !important;
+}
+
+.elementor-button {
+    border-radius: 50px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-weight: 700 !important;
+    transition: all 0.3s ease !important;
+}
+
+.elementor-button:hover {
+    transform: translateY(-3px) !important;
+}
+
+.elementor-icon-box-wrapper {
+    text-align: right !important;
+}
+
+.elementor-icon-box-icon {
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+
+.elementor-field-group input,
+.elementor-field-group textarea,
+.elementor-field-group select {
+    background: var(--dark-bg) !important;
+    border: 2px solid var(--border-color) !important;
+    color: var(--text-light) !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.elementor-field-group input:focus,
+.elementor-field-group textarea:focus {
+    border-color: var(--primary-red) !important;
+    box-shadow: 0 0 0 3px rgba(229, 57, 70, 0.1) !important;
+}
